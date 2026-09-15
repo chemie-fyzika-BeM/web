@@ -1,0 +1,38 @@
+GALERIE – POUZE PROHLÍŽENÍ
+
+V POČÍTAČI
+1. Rozbalte celý ZIP.
+2. Vložte JPEG a PDF přímo do složky obrázky.
+3. Na Macu otevřete SPUSTIT-MAC.command.
+   Na Windows otevřete SPUSTIT-WINDOWS.bat.
+4. Web se otevře v prohlížeči. Klikněte na záložku Obrázky.
+
+Spouštěč vyžaduje Python 3 (verze 3.8 nebo vyšší).
+Na počítači, kde tento web vznikl, je Python 3 dostupný.
+Na jiném počítači jej případně nainstalujte z https://www.python.org/downloads/.
+Není nutná instalace žádných dalších balíčků.
+
+Okno spouštěče ponechte otevřené. Ukončení: Ctrl+C nebo zavření okna.
+Web funguje místně i bez internetu. Žádné soubory se nikam nenahrávají.
+Neotvírejte index.html dvojklikem; otevřete spouštěč.
+
+Stačí vložit soubor do složky. Galerie změnu zjistí do 5 sekund, když je
+otevřená záložka Obrázky a není zvětšený dokument. Funguje i odebrání souboru.
+Fotografii zvětšíte kliknutím. PDF se otevře v okně s prohlížečem PDF.
+K dispozici je i odkaz Otevřít PDF samostatně (pro mobily a prohlížeče,
+které neumějí PDF vložené do stránky). Náhled PDF závisí na prohlížeči.
+Zvětšení zavřete křížkem nebo Escape.
+
+NA GITHUB PAGES
+Nahrajte obsah ZIPu do kořene repozitáře. Settings → Pages →
+Deploy from a branch → main → / (root) → Save.
+Fotky a PDF vkládejte přímo do složky obrázky a potvrďte Commit changes.
+Po dokončení publikování GitHub Pages se zobrazí v záložce Obrázky.
+Ponechte galerie.json a _config.yml, nepřidávejte .nojekyll.
+Na GitHubu žádný spouštěč ani Python nepotřebujete.
+QR kód odkazuje na adresu hotového webu a při změně souborů zůstává stejný.
+
+PODPOROVANÉ SOUBORY
+JPEG, JPG, PNG, GIF, WEBP, AVIF a PDF. Přípony mohou být i velkými písmeny.
+Názvy souborů slouží jako popisky. Pomlčky a podtržítka se změní na mezery.
+Soubory v dalších podsložkách se nezobrazují.

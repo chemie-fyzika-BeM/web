@@ -1,0 +1,16 @@
+---
+layout: null
+---
+[
+{%- assign comma = '' -%}
+{%- for file in site.static_files -%}
+  {%- assign directory = file.path | remove: file.name -%}
+  {%- assign extension = file.extname | downcase -%}
+  {%- if directory == '/obrázky/' -%}
+    {%- if extension == '.jpg' or extension == '.jpeg' or extension == '.png' or extension == '.gif' or extension == '.webp' or extension == '.avif' or extension == '.pdf' -%}
+      {{- comma -}}{{- file.name | jsonify -}}
+      {%- assign comma = ',' -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+]

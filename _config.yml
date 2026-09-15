@@ -1,0 +1,7 @@
+title: Malý koumák – Chemie
+encoding: utf-8
+exclude:
+  - NAVOD.txt
+  - server.py
+  - SPUSTIT-MAC.command
+  - SPUSTIT-WINDOWS.bat
